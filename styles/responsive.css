@@ -1,0 +1,29 @@
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    /* Add your responsive styles here */
+    /* For example: */
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/* Tablets and small desktops */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add your responsive styles here */
+    /* For example: */
+    .container {
+        width: 750px;
+        padding: 0 20px;
+    }
+}
+
+/* Large desktops and laptops */
+@media only screen and (min-width: 992px) {
+    /* Add your responsive styles here */
+    /* For example: */
+    .container {
+        width: 970px;
+        padding: 0 20px;
+    }
+}
