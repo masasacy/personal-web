@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sasa (@sasacayi)</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo"><img src="images/green_avatar.jpg"></a>
-            <ul class="nav-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">My Portfolios</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">About Me</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header class="hero">
-        <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sasa (@sasacayi)</title>
+    </head>
+    <body>
+        <main>
             <h1>Sasa</h1>
-            <p>Assalaamu'alaikum warahmatullaahi wabarakaatuh. Hi, welcome!</p>
-            <a href="#" class="cta-button">Read More</a>
-        </div>
-    </header>
-    <section class="my-portfolios">
-        <div class="container">
-            <h2>My Portfolios</h2>
-            <div class="portfolio-list">
-                <div class="portfolio">
-                    <img src="images/green_avatar.jpg" alt="Quality assurance portfolios">
-                    <h3>Quality Assurance</h3>
-                    <p>Quality assurance portfolios</p>
-                    <button id="qa-portfolio-button"><a href="#" class="portfolio-button">See More</a></button>
-                </div>
-                <div class="portfolio">
-                    <img src="images/green_avatar.jpg" alt="UI/UX design portfolios">
-                    <h3>UI/UX Design</h3>
-                    <p>UI/UX design portfolios</p>
-                    <a href="#" class="portfolio-button">See More</a>
-                </div>
-                <div class="portfolio">
-                    <img src="images/green_avatar.jpg" alt="Web development portfolios">
-                    <h3>Web Development</h3>
-                    <p>Web development portfolios</p>
-                    <a href="#" class="portfolio-button">See More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/portfolios.js"></script>
-</body>
+            <!-- Section brief About Me -->
+            <section>
+                <h2>Ahlan wa sahlan!</h2>
+                <!-- TODO: Create navbar-->
+                <p>Hi, there! Thanks for visiting my page.</p>
+                <p>To direct discuss via Telegram, visit <a target="_blank" href="t.me/sasacayi">t.me/sasacayi</a></p>
+                <a href="t.me/sasacayi"><img src="/images/Rectangle 9167.jpg"></a>
+            </section>
+            <!-- Section list menu -->
+            <section>
+                <h2>List Menu</h2>
+                <h3>Fields:</h3>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>UX Writing</li>
+                    <li>Quality Assurance</li>
+                    <li>Front-end Development</li>
+                </ul>
+                <figure>
+                    <img src="/images/Rectangle 9167.jpg" alt="Sasa's profile photo">
+                    <figcaption>Sasa's profile photo</figcaption>
+                </figure>
+                <h3>Work Experiences</h3>
+                <ol>
+                    <li>UX Writer Intern</li>
+                    <li>QA Manual | Associate Product Manager</li>
+                    <li>Software Quality Assurance | Team & Customer Support</li>
+                </ol>
+            </section>
+            <!-- Contact Me Form -->
+            <section>
+                <form action="#">
+                    <fieldset>
+                        <legend>Contact Me</legend>
+                        <input type="text" name="name" placeholder="Input your name" required>
+                        <br>
+                        <input type="email" name="email" placeholder="Input your email" required>
+                        <br>
+                        <input type="text" name="message" placeholder="Input your message" required>
+                        <br>
+                        <button type="submit">Send Message</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+            Sasa (<a href="t.me/sasacayi">@sasacayi</a>)
+            </p>
+        </footer>
+    </body>
 </html>
