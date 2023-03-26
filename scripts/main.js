@@ -6,3 +6,8 @@ button.addEventListener('click', () => {
     // When the button is clicked, execute this code
     alert('Button clicked!');
 });
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

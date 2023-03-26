@@ -2,10 +2,13 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
-
+.dark-mode {
+    background-color: #191C1A;
+    color: #C5C7C3;
+}
 /* Global styles */
 .container {
     max-width: 1200px;
