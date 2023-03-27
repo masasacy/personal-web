@@ -1,8 +1,21 @@
 /* Reset styles */
 html, body {
-    margin: 0;
-    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px;
+    background-color: #E7F1EB;
     font-family: 'DM Sans', sans-serif;
+}
+
+.theme-toggle {
+    margin-top: 16px;
+    margin-right: 5%;
+    margin-left: 95%;
+}
+
+.profile {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .dark-mode {
