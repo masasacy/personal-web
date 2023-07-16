@@ -1,165 +1,106 @@
-/* Reset styles */
-html, body {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 24px;
-    background-color: #E7F1EB;
-    font-family: 'DM Sans', sans-serif;
+body {
+    background-color: #F1F4F0;
+    font-family: 'Public Sans', sans-serif;
 }
 
-
-.theme-toggle {
-    margin-top: 16px;
-    margin-right: 5%;
-    margin-left: 95%;
-}
-
-.profile {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.dark-mode {
-    background-color: #191C1A;
-    color: #C5C7C3;
-}
-/* Global styles */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-
-/* Header styles */
-.header {
+nav {
+    /* Layout */
+    height: 48px;
+    padding: 16px;
+    float: left;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 64px;
-    background-color: #ffffff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* Style */
+    background-color: #E9EEE8;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #212121;
+#photo-and-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-/* Button styles */
-.button {
-    display: inline-block;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 24px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+#photo-rounded {
+    height: 42px;
+    width: 42px;
 }
 
-.button-hover {
-    background-color: green;
+#name {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
-.form_8 {
-    position: relative;
-    width: 1400px;
-    height: 532px;
-    background: #2F1893;
-}
-
-.title {
-    position: absolute;
-    left: 29.64%;
-    right: 29.64%;
-    top: 18.8%;
-    bottom: 56.39%;
-}
-
-h3 {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 52px;
-    /* identical to box height, or 124% */
-    text-align: center;
-    letter-spacing: -0.4px;
-    color: #ffffff;
-}
-
-p {
-    font-family: 'DM Sans';
-    font-style: normal;
+#arabic {
+    font-family: 'Noto Sans Arabic', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
+}
+
+#menus {
+    display: flex;
+    align-items: center;
+    float: none;
+    position: absolute;
+    gap: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+}
+#menus a {
+    color:  #121212;
+    text-decoration: none;
+}
+
+#menus a:hover {
+    color: #556D60;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#tagline {
+    display: block;
+    font-size: 49px;
+    font-weight: 400;
     text-align: center;
-    color: #ffffff;
-    mix-blend-mode: normal;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    line-height: 60px;
 }
 
-.background {
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: -0.19%;
-    bottom: 0%;
-    opacity: 0.6;
+span {
+    font-weight: 600;
+    font-size: 61px;
+    color: #556D60;
+    background-color: #E9EEE8;
+    overflow: hidden;
+}
+span::before {
+    content: "Web Development";
+    animation: animate infinite 7s;    
 }
 
-.subscribe-form {
-    position: absolute;
-    left: 15.36%;
-    right: 15.29%;
-    top: 53.01%;
-    bottom: 18.8%;
-    margin: 12%;
-}
+@keyframes animate {
+    0% {
+        content: "Web Development";
+    }
 
-.name {
-    box-sizing: border-box;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    mix-blend-mode: normal;
-    opacity: 0.2;
-    width: 270px;
-    height: 60.32px;
-    /* Colors / White */
-    border: 2px solid #FFFFFF;
-    border-radius: 100px;
-}
+    25% {
+        content: "Quality Assurance";
+    }
 
-::placeholder {
-    position: absolute;
-width: 100px;
-height: 26px;
-left: 24px;
-top: calc(50% - 26px/2 + 0.84px);
+    50% {
+        content: "User Interface";
+    }
 
-/* Buttons / Big */
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 26px;
-
-/* identical to box height, or 130% */
-display: flex;
-align-items: center;
-
-/* Colors / White */
-color: #FFFFFF;
-
-opacity: 0.4;
-border-radius: 100px;
+    75% {
+        content: "User Experience";
+    }
 }
