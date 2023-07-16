@@ -65,3 +65,101 @@ html, body {
 .button-hover {
     background-color: green;
 }
+
+.form_8 {
+    position: relative;
+    width: 1400px;
+    height: 532px;
+    background: #2F1893;
+}
+
+.title {
+    position: absolute;
+    left: 29.64%;
+    right: 29.64%;
+    top: 18.8%;
+    bottom: 56.39%;
+}
+
+h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+}
+
+.background {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: -0.19%;
+    bottom: 0%;
+    opacity: 0.6;
+}
+
+.subscribe-form {
+    position: absolute;
+    left: 15.36%;
+    right: 15.29%;
+    top: 53.01%;
+    bottom: 18.8%;
+    margin: 12%;
+}
+
+.name {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    width: 270px;
+    height: 60.32px;
+    /* Colors / White */
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+::placeholder {
+    position: absolute;
+width: 100px;
+height: 26px;
+left: 24px;
+top: calc(50% - 26px/2 + 0.84px);
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+
+/* Colors / White */
+color: #FFFFFF;
+
+opacity: 0.4;
+border-radius: 100px;
+}
