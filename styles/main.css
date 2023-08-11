@@ -43,11 +43,7 @@ nav a {
     display: flex;
     align-items: center;
     gap: 4px;
-}
-
-#arabic {
-    font-family: 'Noto Sans Arabic', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 
@@ -57,12 +53,12 @@ nav a {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    gap: 64px;
+    gap: 48px;
     font-weight: 500;
     float: none;
     position: absolute;
     top: 25%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
 
 }
@@ -86,7 +82,7 @@ nav a {
     font-size: 39px;
     font-weight: 400;
     text-align: center;
-    margin: 20vh auto;
+    margin: 40vh auto;
     line-height: 60px;
 }
 
@@ -103,19 +99,15 @@ span::before {
 }
 
 @keyframes animate {
-    0% {
-        content: "Web Development";
-    }
-
     25% {
-        content: "Quality Assurance";
+        content: "Web Dev";
     }
 
     50% {
-        content: "User Interface";
+        content: "QA";
     }
 
     75% {
-        content: "User Experience";
+        content: "UI/UX";
     }
 }
