@@ -94,7 +94,7 @@ span {
     overflow: hidden;
 }
 span::before {
-    content: "Web Development";
+    content: "QA";
     animation: animate infinite 7s;    
 }
 
@@ -104,10 +104,6 @@ span::before {
     }
 
     50% {
-        content: "QA";
-    }
-
-    75% {
         content: "UI/UX";
     }
 }
