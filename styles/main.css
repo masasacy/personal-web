@@ -94,16 +94,16 @@ span {
     overflow: hidden;
 }
 span::before {
-    content: "QA";
-    animation: animate infinite 7s;    
+    content: "QA 🧪";
+    animation: animate infinite 4s;    
 }
 
 @keyframes animate {
     40% {
-        content: "Web Dev";
+        content: "Web Dev 🌐";
     }
 
     80% {
-        content: "UI/UX";
+        content: "UI/UX 🎨";
     }
 }
