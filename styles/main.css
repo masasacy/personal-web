@@ -99,11 +99,11 @@ span::before {
 }
 
 @keyframes animate {
-    25% {
+    40% {
         content: "Web Dev";
     }
 
-    50% {
+    80% {
         content: "UI/UX";
     }
 }
