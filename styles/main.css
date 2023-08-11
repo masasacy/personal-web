@@ -5,6 +5,18 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+a {
+    text-decoration: underline;
+    color: #121212;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+}
 
 
 /* Navigation */
@@ -13,8 +25,10 @@ nav {
     height: 32px;
     padding: 16px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     position: fixed;
+    gap: 24px;
     top: 0;
     width: 100vw;
     /* Style */
@@ -50,16 +64,20 @@ nav a {
 /* Menus on navigation */
 #menus {
     list-style-type: none;
-    justify-content: space-between;
+    text-decoration: underline;
+    /* justify-content: center; */
     display: flex;
+    flex-direction: row;
+    /* display: flex; */
     align-items: center;
     gap: 48px;
     font-weight: 500;
-    float: none;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    /* float: none; */
+    /* position: absolute; */
+    /* top: 25%; */
+    /* margin: auto; */
+    /* left: 25%; */
+    /* transform: translate(-50%, -50%); */
 
 }
 
